@@ -7,3 +7,8 @@ How is the staging area different from the working directory and the repository?
 
 the staging area is contain the files that i will commite in the repository , if i want to commite multiple files i can put them in the staginga area then commite them at once .
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+by comparing the staging area with the working directory (git diff) , 
+and comparing the staging area withe most recent commit (git difd --staged)
+or after commite it u can simply compare the commites with (git diff commite1 commite2)
