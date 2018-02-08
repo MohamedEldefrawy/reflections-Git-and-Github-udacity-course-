@@ -1,21 +1,21 @@
 What happens when you initialize a repository? Why do you need to do it?
-
 a hidden folder (.git) is created which contain a meta data about the repository
-, we need to do it to start the commite process
+, we need to do it to start the commite process.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-
-the staging area is contain the files that i will commite in the repository , if i want to commite multiple files i can put them in the staginga area then commite them at once .
+the staging area is contain the files that i will commite in the repository , if i want to commite multiple files i can put them in the staginga area then commite them at once.
 
 How can you use the staging area to make sure you have one commit per logical change?
-
 by comparing the staging area with the working directory (git diff) , 
 and comparing the staging area withe most recent commit (git difd --staged)
-or after commite it u can simply compare the commites with (git diff commite1 commite2)
+or after commite it u can simply compare the commites with (git diff commite1 commite2).
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-when adding new feature that we not sure about it's stabilty so we can make a new branch for it and start developing until it works again we can merge it with the the orignal branch (master) or whatever .
+when adding new feature that we not sure about it's stabilty so we can make a new branch for it and start developing until it works again we can merge it with the the orignal branch (master) or whatever.
 
 How do the diagrams help you visualize the branch structure?
+it helps me alot by knowing which branch unreachable with others and what commits missing that branch .
 
-it helps me alot by knowing which branch unreachable with others and what commits missing that branch 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+a new branch contain commits of both but it may cause some conflict u have to solve them ,
+it helps u to predct the merge result and allow u which branch u will not need any more to delete it .
