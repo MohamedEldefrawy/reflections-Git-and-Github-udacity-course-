@@ -15,3 +15,7 @@ or after commite it u can simply compare the commites with (git diff commite1 co
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 when adding new feature that we not sure about it's stabilty so we can make a new branch for it and start developing until it works again we can merge it with the the orignal branch (master) or whatever .
+
+How do the diagrams help you visualize the branch structure?
+
+it helps me alot by knowing which branch unreachable with others and what commits missing that branch 
