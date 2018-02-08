@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+a hidden folder (.git) is created which contain a meta data about the repository
+, we need to do it to start the commite process
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+the staging area is contain the files that i will commite in the repository , if i want to commite multiple files i can put them in the staginga area then commite them at once .
+
