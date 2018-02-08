@@ -19,3 +19,6 @@ it helps me alot by knowing which branch unreachable with others and what commit
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 a new branch contain commits of both but it may cause some conflict u have to solve them ,
 it helps u to predct the merge result and allow u which branch u will not need any more to delete it .
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+automatic merging : i don't see any pros except u will remove the headic of do it manually , but if it will done automaticly what it will do with conflict it may choose the wrong code and remove the correct , but if it merge manually you have to see the conflict and study each one the choose the correct and suitable action to do with them.
