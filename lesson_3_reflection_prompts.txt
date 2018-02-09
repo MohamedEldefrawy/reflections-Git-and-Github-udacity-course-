@@ -1,2 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
-i will use remote repository if i want to synch between my local repository and the created one on github 
+i will use remote repository if i want to synch between my local repository and the created one on github.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+if it ull the changes automatically maybe it damage the files that iam working on it  so pull it manually prevent that.
