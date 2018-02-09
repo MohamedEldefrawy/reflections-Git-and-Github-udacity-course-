@@ -14,3 +14,7 @@ it will be usful when fetch the changes from github the merge it with the last k
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 i think nothing will be easier without git and github since everybody can ruin the master branch, but with pull request he will ask me to review his work and if it good i will response to his request else i will give him a feedback to make his contribution good. 
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+for many reason the first if i want to develop a new functionalty in the project without delay the master version,
+second when i want to do a pull request so i can create a new branch specially for this reason.
